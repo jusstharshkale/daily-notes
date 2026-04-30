@@ -1,26 +1,26 @@
-24/04/2026
+Date : 24/04/2026
 
 # Topic - OSI Model
-Th OSI model is considered as most impotant model for the representation of how the data travels through the system to another system or over internet to servers. There are seven main layers of OSI model which is used to depict the data processing.
-Structure :
-Application Layer
-Presentation Layer
-Session layer
-Transport Layer
-Network Layer
-Data link Layer
-Physical Layer
+Objective : Understand how data travels from one system to another using layered architecture.
 
---The application layer is the first layer from where the data starts to travel from client side. Application layer works at the web browser of client where a user makes the request for the server.
---The presentation layer is responsible for formatting of data and it is also used for the encryption of the data.
---The session layer is used to create the session between users and it can be attacked by attackers using session ID hijacking by getting the keys of the session.
+Concept :
+The OSI(Open Systems Interconnection) model is considered as most important model for the representation of how the data travels through one system to another system. There are seven layers of OSI model from user interaction to physical transmission. 
 
-The first three layers of OSI model is known as Protocol Data Unit.
+Layers (Top --> Bottom) :
 
---The transport layer is responsible for converting protocol data unit to segments and also attach the headers with the information of port address including header for source and destination ip addresses.
---The network layer is used to break the segments into packets amd also provides the ip address to the packets which helps to esablish connection.
---The data link layer converts packets into frames which is majorly used by ethernet cable connections, also ensures reliable and node-to-node data transfer.
---The physical layer is the last layer which is used to convert the data in the binary format and transfer the binary data to the physcial layer of server or another user in the local network.
+1.Application Layer - User interacts (browser request)
+2.Presentation Layer - Data formatting + encryption
+3.Session layer - Maintains connection between systems
+4.Transport Layer - Breaks data into segments, add port info
+5.Network Layer - Breaks segments into packets, assigns IP address
+6.Data link Layer - Breaks packets into frames, MAC based communication
+7.Physical Layer - Converts data into binary and transmit physically
+
+Attacker Thinking : 
+--> Session layer can be compromised by session ID hijacking
+--> Transport layer can be used for port based attacks
+--> Network layer can help to retrieve IP address 
+
 
 # Topic - TCP/IP Model
 The TCP/IP model is further classifies OSI model into only four layers which is used in recent times to explain how data is transmitted between computers over a network,serving as the foundational protocol suite of the modern interne

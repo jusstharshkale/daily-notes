@@ -16,7 +16,7 @@ Layers (Top --> Bottom) :
 6.Data link Layer - Breaks packets into frames, MAC based communication
 7.Physical Layer - Converts data into binary and transmit physically
 
-Attacker Thinking : 
+Attacking Techniques : 
 --> Session layer can be compromised by session ID hijacking
 --> Transport layer can be used for port based attacks
 --> Network layer can help to retrieve IP address 
@@ -31,8 +31,8 @@ Transport Layer
 Internet Layer
 Network Access Layer
 
-Attacker Thinking :
---> Application layer can be exploited by DNS spoofing
+Attacking Techniques :
+--> Application layer can be exploited by auth attack
 --> Transport layer can be compromised by TCP SYN flooding
 --> IP spoofing can be used to break the internet layer
 
@@ -46,7 +46,7 @@ Types of IP address :
 1. Public IP  - This IP is visible on the internet
 2. Private IP - Private IP is used inside a local network
 
-Attacker Thinking :
+Attacking Technique :
 --> IP address can be used for scanning and reconnaissance
 --> It can also be used to track a geo-location
 
@@ -55,7 +55,11 @@ How to identify :
 --> ifconfig in linux terminal
 
 # Topic - MAC Address
-A MAC (Media Access Control) address is a unique, permanent 48-bit identifier assigned to a network interface controller (NIC) for local network communications, usually displayed as 12 hexadecimal characters (e.g., 00:1A:2B:3C:4D:5E). Unlike IP addresses, they do not change and are used by routers and switches to direct data to the correct physical device.
+Concept : A MAC (Media Access Control) address is a unique, permanent 48-bit identifier assigned to a network interface controller (NIC) for local network communications, usually displayed as 12 hexadecimal characters (e.g., 00:1A:2B:3C:4D:5E). Unlike IP addresses, they do not change and are used by routers and switches to direct data to the correct physical device.
+
+Attacking Technique :
+--> ARP spoofing
+--> Local network attacks
 
 # Topic - Ports
 Concept : Entry points for the attackers as they provide the information about the running services

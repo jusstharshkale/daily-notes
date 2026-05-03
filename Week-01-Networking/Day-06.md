@@ -1,6 +1,11 @@
-29-0-4-2026
+Date : 29-04-2026
 
 # Topic - Creating a ping sweeper using bash scripting
+Objective : Understand how bash script is used to ping a network
+
+Concept : A ping sweeper is a simple network discovery technique used to find which devices on a network are “alive”. It’s based on the Internet Control Message Protocol, specifically ICMP Echo Requests and Echo Replies.
+
+Code :
 #!/bin/bash
 
 network="192.168.29"
@@ -24,6 +29,11 @@ done
 echo "Scan complete"
 
 # Topic - Creating a file organizer using bash scripting
+Objective : Understand how bash script is used to automate file organization.
+
+Concept : A file organizer is built around the idea of automatically classifying and arranging files based on rules so that storage stays structured without manual effort.
+
+Code :
 #!/bin/bash 
 
 dir="$1"

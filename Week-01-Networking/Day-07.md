@@ -1,36 +1,39 @@
 Date : 30-04-2026
 
 # Topic  - Documentation of Try Hack Me walkthrough --> Nmap : The basics
-Objective : To understand basics of nmap
+Objective : To understand the basics of Nmap and how it is used to scan networks.
 
-Concept : Nmap is used for scanning the networks and search for open ports in a system.
+Concept : Nmap (Network Mapper) is a tool used for network discovery and security auditing. It helps identify:
+Open ports
+Services running on those ports
+Potential attack surfaces
 
 Documentation: 
 The room is to practice the nmap tool, which performs scanning of the network to detect the attack surface, ports, and services running on the ports.
 The first command we used was:
 
--sN → used for ping scan and gives an overview of a network
+-sn → ping scan
 
 Then we used:
 
--sL → to list the scan
+-sL → list scan
 
 For performing specific protocol-based scans:
 
--sT (TCP)
--sU (UDP)
+-sT --> TCP connect scan
+-sU --> UDP scan
 
 Other scan options:
 
--sS → used for stealthy scan
+-sS → TCP SYN scan
 -F → fast scan
 -p → specify a port range
 
 Additional options:
 
--O → helps to detect the OS version of the target
--sV → used to detect service versions of the application
--A → used to enable both OS and service detection together
+-O → OS detection
+-sV → service version detection
+-A → aggressive scan
 -v → verbosity
 
 For debugging and saving results:
@@ -40,7 +43,7 @@ For debugging and saving results:
 -oA → save output in all formats
 
 # Topic -  Documentation of Try Hack Me walkthrough --> Networking essentials
-Objective : Understand about the protocols.
+Objective : To understand basic networking protocols and how devices communicate.
 
 Concept : Protocols are basically the rules that devices follow to communicate with each other over a network. Without them, computers, phones, and servers wouldn’t understand how to send or interpret data.
 

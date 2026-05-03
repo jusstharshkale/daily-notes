@@ -1,6 +1,11 @@
-30-04-2026
+Date : 30-04-2026
 
 # Topic  - Documentation of Try Hack Me walkthrough --> Nmap : The basics
+Objective : To understand basics of nmap
+
+Concept : Nmap is used for scanning the networks and search for open ports in a system.
+
+Documentation: 
 The room is to practice the nmap tool, which performs scanning of the network to detect the attack surface, ports, and services running on the ports.
 The first command we used was:
 
@@ -35,6 +40,11 @@ For debugging and saving results:
 -oA → save output in all formats
 
 # Topic -  Documentation of Try Hack Me walkthrough --> Networking essentials
+Objective : Understand about the protocols.
+
+Concept : Protocols are basically the rules that devices follow to communicate with each other over a network. Without them, computers, phones, and servers wouldn’t understand how to send or interpret data.
+
+Documentation:
 The room 2 was about networking devices or identities where the first topic we studied was DHCP (Dynamic Host Configuration Protocol). We learned about the DHCP method to get a public IP address via DHCP.
 Then we analyzed ARP (Address Resolution Protocol), which maps local networks with MAC addresses. Also understood the default syntax of MAC addresses.
 Then we used ICMP echo requests, which include ping, to check if the target is alive and responding back with basic information.

@@ -4,7 +4,7 @@ Date : 27-04-2026
 Objective : Getting familiar with basic commands
 
 Concept :
-Linux uses a hierarchical file system and most of the linux system works better on Command Line Interface(CLI). These commands can be used to list the file , navigate through directories, read and edit the file and managing users and system info.
+Linux uses a hierarchical file system and most Linux systems work better on Command Line Interface(CLI). These commands can be used to list files , navigate through directories, read and edit the file and managing users and system information.
 
 Commands :
 pwd - current location

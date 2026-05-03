@@ -1,7 +1,10 @@
-26-04-2026
+Date : 26-04-2026
 
 # Topic  - DNS Resolution
-The DNS (Domain Name System) resolution process is the "phonebook of the internet" mechanism that translates human-readable domain names (e.g., example.com) into machine-friendly IP addresses (e.g., 192.0.2.1). There is always a dot (.) at the end of a domain name.
+Objective : Understand how DNS resoultion is performed 
+
+Concept :
+The DNS (Domain Name System) resolution process is the "phonebook of the internet" mechanism that translates human-readable domain names (e.g., example.com) into machine-friendly IP addresses (e.g., 192.0.2.1). There is always a dot (.) at the end of a domain name which represents root domain (usually hidden in browsers).
 
 8 Steps of DNS Resolution :
 1.User Enters Query: You type a domain name (e.g., example.com) into your web browser.
@@ -13,11 +16,18 @@ The DNS (Domain Name System) resolution process is the "phonebook of the interne
 7.Resolver Returns IP: The recursive resolver sends the IP address back to your web browser.
 8.Browser Connects to Website: Your browser uses the IP address to connect to the web server and loads the website.
 
-# Topic - Web request flow
-<img width="1144" height="818" alt="Web request flow" src="https://github.com/user-attachments/assets/316de177-55f3-4513-96ce-a51d82726294" />
+Attacking Techniques :
+--> DNS cache poisoning - attacker injects fake IP into cache
+--> DNS hijacking - redirects users to malicious sites
 
 # Topic - HTTP methods
-<img width="785" height="632" alt="Screenshot 2026-05-01 001418" src="https://github.com/user-attachments/assets/f83362eb-f42e-4d50-869c-9e10dd56bfef" />
+Concept : HTTP methods define what action a client (browser) wants to perform on a server resource.
+
+GET --> Retrieve data from the server
+POST --> Send data to create a new resource
+PATCH --> Partially update a resource
+PUT --> Update/replace an existing resource
+DELETE --> Remove a resource
 
 # Topic - using nslookup and curl commands
 The nslookup command performs a direct DNS query to resolve hostnames to IP addresses, while curl is a web client that resolves hostnames internally to fetch web content.

@@ -37,7 +37,7 @@ Attacking Techniques :
 --> IP spoofing can be used to break the internet layer
 
 # Topic - IP Address
-Concept : IP address is the logical address of a system which is assigned to a device to access the internet. There are two versions of IP address is used IPv4 and IPv6 but currently vesion 4 is most widely used for connections.
+Concept : IP address is the logical address of a system which is assigned to a device to access the internet. There are two version of IP address is used IPv4 and IPv6 but currently version 4 is most widely used for connections.
 The IP address are classified into five classes :
 
 <img width="640" height="480" alt="Ip address" src="https://github.com/user-attachments/assets/dee4736b-9a41-41c3-90e4-f7a59ea4888f" />
@@ -66,7 +66,7 @@ Concept : Entry points for the attackers as they provide the information about t
 <img width="1955" height="2113" alt="Ports" src="https://github.com/user-attachments/assets/2ade7607-b21f-4222-a2ff-9b11b6745660" />
 
 # Topic - Protocols 
-ARP - IP to MAC mapings -- ARP spoofing
+ARP - IP to MAC mappings -- ARP spoofing
 FTP - send files - MITM
 SMTP - used for email communication
 HTTP - for web servers -- XSS

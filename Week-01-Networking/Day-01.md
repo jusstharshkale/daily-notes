@@ -1,4 +1,4 @@
-Date : 24/04/2026
+Date : 24-04-2026
 
 # Topic - OSI Model
 Objective : Understand how data travels from one system to another using layered architecture.

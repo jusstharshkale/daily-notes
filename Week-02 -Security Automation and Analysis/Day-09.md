@@ -21,19 +21,17 @@ def parse_log_file(filename):
 
                 if line.startswith("INFO"):
                     log_counts["INFO"] += 1
-
-                if line.startswith("ERROR"):
+                elif line.startswith("ERROR"):
                     log_counts["ERROR"] += 1
-
-                if line.startswith("WARNING"):
+                elif line.startswith("WARNING"):
                     log_counts["WARNING"] += 1
 
-        print("LOG SUMMARY : ")
+        print("LOG SUMMARY:")
         for level, count in log_counts.items():
-            print(f"{level}:{count}")
+            print(f"{level}: {count}")
 
     except FileNotFoundError:
-        print("Error : File not found.")
+        print("Error: File not found.")
+ parse_log_file("sample_log_parser.txt")
 
-parse_log_file("sample_log_parser.txt")
-
+NOTE: sample_log_parser.txt is a test log file used to verify and check the working of the log parser program.
